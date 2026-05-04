@@ -1,2 +1,53 @@
 # Sales-insights-Dashboard
 Sales and budget analysis dashboard built in Power BI with KPI tracking, variance analysis, and growth metrics
+<img width="1305" height="724" alt="Screenshot 2026-05-05 043439" src="https://github.com/user-attachments/assets/0052e790-0522-4a85-8d82-e47f9fa6e24c" />
+SALES & BUDGET PERFORMANCE – KEY INSIGHTS
+
+1. OVERALL PERFORMANCE
+
+* Total sales performance shows periods of both overachievement and underperformance compared to budget.
+* The overall achievement percentage indicates that sales did not consistently meet planned targets across all periods.
+
+2. VARIANCE ANALYSIS
+
+* Significant negative variance observed in early months suggests underperformance against budget.
+* Positive variance in later periods indicates recovery and improved sales execution.
+* Fluctuations in variance highlight inconsistencies in demand forecasting and planning.
+
+3. GROWTH TRENDS
+
+* Month-over-Month (MoM) growth shows volatility, indicating unstable short-term performance.
+* Year-over-Year (YoY) growth reflects overall upward trend but lacks consistency across months.
+* Sudden spikes and drops suggest external or seasonal factors influencing sales.
+
+4. BUDGET VS ACTUAL ALIGNMENT
+
+* Budget allocation does not perfectly align with actual sales patterns.
+* Certain months show overestimation of budget, leading to consistent underachievement.
+* Misalignment indicates potential gaps in forecasting accuracy.
+
+5. PERFORMANCE EFFICIENCY
+
+* Achievement percentage frequently falls below 100%, indicating targets were not fully met.
+* Periods exceeding 100% highlight strong execution but are not sustained.
+* Performance consistency remains a key area for improvement.
+
+6. RISK & OPPORTUNITY AREAS
+
+* High variance months represent risk zones requiring deeper analysis.
+* Consistently underperforming periods indicate operational or strategic inefficiencies.
+* High-performing months provide opportunities to replicate successful strategies.
+
+7. BUSINESS RECOMMENDATIONS
+
+* Improve demand forecasting to reduce budget vs actual mismatch.
+* Focus on stabilizing monthly performance to reduce volatility.
+* Investigate root causes of underperformance in specific periods.
+* Align budget planning more closely with historical sales trends.
+* Leverage high-performing periods to optimize future strategies.
+
+---
+
+CONCLUSION
+The analysis highlights gaps between planned and actual performance, with noticeable variability in growth and achievement. While certain periods demonstrate strong performance, overall consistency and alignment with budget remain key areas for improvement.
+

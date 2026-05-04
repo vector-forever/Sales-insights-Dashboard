@@ -1,0 +1,33 @@
+SELECT TOP (1000) [CustomerKey]
+     --,[GeographyKey]
+      --,[CustomerAlternateKey] AS CustomerKey
+      --,[Title]
+      ,[FirstName] As [first Name]
+      --,[MiddleName]
+      ,[LastName] AS [Last Name]
+      ,[FirstName] + ' ' + [LastName] AS [Full Name]
+      --,[NameStyle]
+      --,[BirthDate] 
+      --,[MaritalStatus]
+      --,[Suffix]
+      ,CASE [Gender] WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Gender
+      --,[EmailAddress]
+      --,[YearlyIncome]
+      --,[TotalChildren]
+      --,[NumberChildrenAtHome]
+      --,[EnglishEducation]
+      --,[SpanishEducation]
+      --,[FrenchEducation]
+      --,[EnglishOccupation]
+      --,[SpanishOccupation]
+      --,[FrenchOccupation]
+      --,[HouseOwnerFlag]
+      --,[NumberCarsOwned]
+      --,[AddressLine1]
+      --,[AddressLine2]
+      --,[Phone]
+      ,[DateFirstPurchase] AS [Date of Purchase],
+      dbo.DimGeography.City as [Customer City]
+      --,[CommuteDistance]
+  FROM dbo.DimCustomer
+  LEFT JOIN DBO.DimGeography ON dbo.DimGeography.GeographyKey = dbo.DimCustomer.GeographyKey
